@@ -1,0 +1,22 @@
+
+#hero .hero{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+#hero h1{
+    font-size: 4rem;
+    font-weight: bold;
+    position: relative;
+    color: white;
+}
+.reveal{
+    position: relative;
+    transform: translateY(250px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
